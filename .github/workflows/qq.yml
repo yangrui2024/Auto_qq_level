@@ -7,7 +7,7 @@ name: QQ Daily Task
 on:
   schedule:
     # UTC 23:00 = 北京时间 07:00
-    - cron: '0 23 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       force_run:
